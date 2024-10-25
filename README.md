@@ -1,5 +1,9 @@
+![node-logger](./image.png)
+
 # node-logger
-Node logger helper
+Simple logger for nodejs. 
+
+
 
 ## Installation
 ```bash
