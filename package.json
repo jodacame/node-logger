@@ -1,0 +1,17 @@
+{
+  "name": "logger",
+  "description": "A simple logger for Node.js",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "dependencies": {
+    "chalk": "^5.3.0"
+  },
+  "keywords": [
+    "logger",
+    "log",
+    "logging"
+  ],
+  "author": "Jose Canchila <@jodacame>",
+  "license": "MIT"
+}
