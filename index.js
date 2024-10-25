@@ -1,6 +1,13 @@
 import chalk from "chalk";
 
 const logger = {
+  /**
+   * Progress bar
+   * @param {int} progress - Progress value
+   * @param {int} total - Total value - 100 by default
+   * @param {int} barLength - Length of the progress bar - 100 by default
+   * @param {string} text - Text to display after the progress bar - "" by default
+   */
   progress: (progress = 0, total = 100, barLength = 100, text = "") => {
     const percent = Math.round((progress / total) * 100);
     let bar = Array(Math.round((barLength * percent) / 100))
