@@ -1,12 +1,24 @@
 {
-  "name": "logger",
+  "name": "@jodacame/node-logger",
   "description": "A simple logger for Node.js",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "devDependencies": {},
+  "scripts": {
+    "example": "node example.js"
+  },
   "dependencies": {
     "chalk": "^5.3.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jodacame/node-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jodacame/de-logger/issues"
+  },
+  "homepage": "https://github.com/jodacame/de-logger",
   "keywords": [
     "logger",
     "log",

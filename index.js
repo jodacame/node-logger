@@ -1,4 +1,5 @@
 import chalk from "chalk";
+
 const logger = {
   progress: (progress = 0, total = 100, barLength = 100, text = "") => {
     const percent = Math.round((progress / total) * 100);
