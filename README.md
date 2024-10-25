@@ -1,7 +1,8 @@
 ![node-logger](./image.png)
 
 # node-logger
-Simple logger for nodejs. 
+A lightweight and flexible logger for Node.js applications. Designed to simplify logging with support for different log levels, including `info`, `error`, `warn`, and `debug`. With `node-logger`, you can log directly to stdout, track progress with a progress bar, and include additional context as needed. Whether you're building a small project or a larger application, `node-logger` provides the essential tools for effective logging.
+
 
 
 
